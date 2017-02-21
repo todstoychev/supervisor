@@ -5,5 +5,3 @@ LABEL maintainer="todstoychev@gmail.com"
 LABEL version="0.1.0"
 
 RUN apt-get update && apt-get install supervisor -y
-
-CMD service supervisor start && tail -F /dev/null
